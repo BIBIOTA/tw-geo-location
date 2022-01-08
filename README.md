@@ -15,6 +15,7 @@
 回傳參數:
 
 當傳送的地理位置位於臺灣時回傳資訊，不在臺灣時回傳false
+
 { county: string, district: string } || false
 
 使用:
@@ -38,20 +39,20 @@ geoDistrict([Longitude, Latitude]);
 此套件所使用的資源:
 
 turf - 使用boolean-point-in-polygon計算鄉鎮區界線
-<a href="https://www.npmjs.com/package/@turf/boolean-point-in-polygon">npm</a>
+<a href="https://www.npmjs.com/package/@turf/boolean-point-in-polygon" target="_blank">npm</a>
 
 jest - unit test
-<a href="https://www.npmjs.com/package/jest">npm</a>
+<a href="https://www.npmjs.com/package/jest" target="_blank">npm</a>
 
 geojson-random - unit test 產生隨機位置
-<a href="https://www.npmjs.com/package/geojson-random">npm</a>
+<a href="https://www.npmjs.com/package/geojson-random" target="_blank">npm</a>
 
 
 geonames api - call api in unit test 取得隨機位置的地理資訊
-<a href="https://www.geonames.org/about.html">about</a>
+<a href="https://www.geonames.org/about.html" target="_blank">about</a>
 
 axios - call api in unit test
-<a href="https://www.npmjs.com/package/axios">npm</a>
+<a href="https://www.npmjs.com/package/axios" target="_blank">npm</a>
 
 臺灣鄉鎮市區行政區域界線geoJson:
-<a href="https://sheethub.com/ronnywang/%E9%84%89%E9%8E%AE%E5%B8%82%E5%8D%80%E8%A1%8C%E6%94%BF%E5%8D%80%E5%9F%9F%E7%95%8C%E7%B7%9A">sheethub</a>
+<a href="https://sheethub.com/ronnywang/%E9%84%89%E9%8E%AE%E5%B8%82%E5%8D%80%E8%A1%8C%E6%94%BF%E5%8D%80%E5%9F%9F%E7%95%8C%E7%B7%9A" target="_blank">sheethub</a>
